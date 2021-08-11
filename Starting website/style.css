@@ -142,6 +142,13 @@ footer .devise {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    font-size: 20px;
+}
+
+#black {
+    font-size: 20px;
+    text-shadow: none;
+    color: black !important;
 }
 
 
@@ -643,6 +650,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, 0.1);
     box-shadow: none;
+    font-size: 18px;
 }
 
 .scrollToTop {
@@ -1008,13 +1016,19 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+/* (min-device-width: 768px) and  */
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+/* and (min-device-width: 1024px) */
+
+@media only screen and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1033,8 +1047,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -1044,8 +1058,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
     #contact {
         display: flex;
