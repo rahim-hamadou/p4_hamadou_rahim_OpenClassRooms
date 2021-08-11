@@ -27,6 +27,73 @@ a:hover {
     background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+
+/* correction */
+
+.mg-md .black {
+    color: #000000;
+}
+
+.description h2 {
+    font-size: 25px;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+blockquote {
+    font-size: 25px;
+}
+
+.join {
+    background-color: #ee5f1d;
+    border-radius: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+#bloc-5-cta h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+#bloc-5-cta p {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#bloc-5-cta a {
+    font-size: 20px;
+}
+
+footer p {
+    text-shadow: 2px 2px 3px rgb(3 0 0);
+    font-size: 25px;
+}
+
+footer a {
+    font-size: 30px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+footer .devise {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    width: 60%;
+    margin: auto;
+}
+
+
+/* correction-end */
+
 .bloc {
     width: 100%;
     clear: both;
@@ -42,6 +109,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    max-width: 100%;
 }
 
 .bloc-lg {
@@ -285,7 +353,13 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 5vw;
+    font-weight: bold;
+    background-color: #ee5f1d;
+    border-radius: 40px;
+    width: 75%;
+    margin: 30px auto 0 auto;
+    padding: 15px 0 20px 0;
 }
 
 .navbar {
@@ -324,9 +398,16 @@ a:hover {
 }
 
 .nav>li {
+    text-decoration: underline;
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nav>li a {
+    font-size: 25px;
 }
 
 .navbar-nav .open .dropdown-menu>li>a {
@@ -678,11 +759,11 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -692,6 +773,7 @@ p {
 }
 
 .cta-hero {
+    text-shadow: 2px 2px 3px rgb(3 0 0);
     margin-top: 22px;
     color: #ffffff !important;
     text-transform: uppercase;
@@ -701,17 +783,24 @@ p {
 }
 
 .social {
+    /* text-shadow: 2px 2px 3px rgb(3 0 0); */
     max-width: 400px;
     margin: auto;
 }
 
+.social a {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333 !important;
@@ -740,6 +829,11 @@ h4 {
     color: #ffffff !important;
 }
 
+.black {
+    color: #000000 !important;
+    text-shadow: none;
+}
+
 .portfolio-thumb {
     margin: auto;
     /* margin-bottom: 24px; */
@@ -755,8 +849,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(243 151 108);
-    padding: 40px 40px 40px 40px;
+    background-color: #ee5f1d;
+    padding: 15px;
+    border-radius: 40px;
 }
 
 .bold-link {
@@ -769,27 +864,29 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #f3976c;
+    background-color: #fb8147;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f3976c;
+    background-color: #ee5f1d;
 }
 
 .tc-white {
     text-shadow: 2px 2px 3px rgba(3, 0, 0, 1);
-    color: #ff5a00 !important;
-    /* color: #ffffff !important; */
-    /* color: #f3976c !important; */
+    /* color: #fb8147 !important; */
+    color: #ffffff !important;
+    /* color: #fb8147 !important; */
+    /* color: #ffc209 !important; */
+    /* color: #2b56ff !important; */
 }
 
 .btn-atomic-tangerine {
-    background: #f3976c;
+    background: #ee5f1d;
     color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: #cb480b !important;
     color: #ffffff !important;
 }
 
@@ -802,7 +899,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #f3976c !important;
+    color: #fb8147 !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -894,6 +991,24 @@ h4 {
     }
 }
 
+
+/* correction */
+
+.join {
+    padding: 10px 0;
+}
+
+#bloc-5-cta h2 {
+    font-size: 25px;
+}
+
+#bloc-5-cta p {
+    font-size: 25px;
+}
+
+
+/* corredction-end */
+
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
@@ -910,6 +1025,17 @@ h4 {
         padding-left: 10px !important;
         padding-right: 10px !important;
     }
+    /* correction */
+    .join {
+        padding: 10px 0;
+    }
+    #bloc-5-cta h2 {
+        font-size: 25px;
+    }
+    #bloc-5-cta p {
+        font-size: 25px;
+    }
+    /* correction-end */
     .b-parallax {
         background-attachment: scroll;
     }
