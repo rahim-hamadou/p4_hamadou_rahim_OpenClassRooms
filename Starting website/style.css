@@ -70,6 +70,11 @@ blockquote {
     font-size: 20px;
 }
 
+.col-sm-6 a img {
+    height: 80%;
+    width: 80%;
+}
+
 footer p {
     text-shadow: 2px 2px 3px rgb(3 0 0);
     font-size: 25px;
