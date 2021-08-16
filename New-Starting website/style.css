@@ -74,6 +74,14 @@ blockquote {
     width: 80%
 }
 
+.col-sm-12 h1 {
+    font-size: 32px;
+}
+
+.col-sm-12 p {
+    font-size: 22px;
+}
+
 footer p {
     text-shadow: 2px 2px 3px #030000;
     font-size: 18px;
@@ -142,17 +150,16 @@ footer .devise {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    font-size: 20px
+    font-size: 22px
 }
 
 #black {
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: none;
     color: #000!important
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -176,7 +183,7 @@ footer .devise {
 }
 
 .bloc-sm {
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .bg-b-edge,
@@ -459,7 +466,7 @@ footer .devise {
 }
 
 .nav>li a {
-    font-size: 25px
+    font-size: 22px
 }
 
 .navbar-nav .open .dropdown-menu>li>a {
