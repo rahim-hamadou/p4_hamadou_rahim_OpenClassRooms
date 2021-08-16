@@ -223,8 +223,8 @@ th {
 
 @media print {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         color: #000 !important;
         text-shadow: none !important;
         background: 0 0 !important;
@@ -7784,7 +7784,6 @@ button.close {
 }
 
 .center-block {
-    width: 25%;
     display: block;
     margin-right: auto;
     margin-left: auto;
