@@ -154,7 +154,31 @@ footer .devise {
     font-size: 22px
 }
 
-#black {
+#clr {
+    font-size: 18px;
+    text-shadow: none;
+    color: rgb(255, 255, 255)!important
+}
+
+#clr-2 {
+    font-size: 18px;
+    text-shadow: none;
+    color: rgb(255, 255, 255)!important
+}
+
+#clr-3 {
+    font-size: 18px;
+    text-shadow: none;
+    color: rgb(255, 255, 255)!important
+}
+
+#clr-4 {
+    font-size: 18px;
+    text-shadow: none;
+    color: rgb(255, 255, 255)!important
+}
+
+#clr-5 {
     font-size: 18px;
     text-shadow: none;
     color: rgb(255, 255, 255)!important
@@ -904,13 +928,6 @@ h4 {
 .avatar {
     box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3)
 }
-
-
-/* .black-background {
-    background-color: #99380B;
-    padding: 15px;
-    border-radius: 40px
-} */
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
