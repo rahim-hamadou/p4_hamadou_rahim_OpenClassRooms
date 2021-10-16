@@ -12,4 +12,5 @@ Optimiser le référencement d'un site web
 
 Instruction: 
 
-Lancer la page herbergée par github pour decouvrir un site optimisé grace au different outils de seo et d'accesibilité
+Lancer la page herbergée par github pour decouvrir un site optimisé grace au different outils de seo et d'accesibilité.
+https://rumgalxdead.github.io/p4_rahim_hamadou/
